@@ -6,10 +6,18 @@
 """
 dictionary = {'test': 'test_value', 'europe': 'eur', 'dollar': 'usd', 'ruble': 'rub'}
 length = len(dictionary)
-i = 1
-while i <= length:
-    current_key = dictionary.keys()
-    print(current_key)
+current_keys_list = list(dictionary.keys())
+i = 0
+while i < length:
+    current_key_name = current_keys_list[i]
+    new_key_name = current_key_name + str(len(current_key_name))
+    dictionary[new_key_name] = dictionary[current_key_name]
+    del dictionary[current_key_name]
     i += 1
+print(dictionary)
+
+
+
+
 
 
