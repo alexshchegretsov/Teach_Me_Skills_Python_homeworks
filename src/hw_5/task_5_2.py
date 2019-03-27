@@ -19,6 +19,7 @@ while True:
         m = int(m)
         n = int(n)
         matrix = []
+
         for x in range(m, n + 1):
             row = []
             matrix.append(row)
@@ -30,12 +31,3 @@ while True:
     else:
         print('n and m must be a digit')
         continue
-
-
-# for x in range(m, n + 1):
-#     row = []
-#     matrix.append(row)
-#     for y in range(2, x):
-#         if not x % y:
-#             row.append(str(y))
-#     print(f'{x}: {" ".join(matrix[x - m])}')
