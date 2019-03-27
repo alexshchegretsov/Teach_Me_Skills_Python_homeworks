@@ -13,21 +13,20 @@ m и n вводятся с клавиатуры.
 
 """
 while True:
-    m = input('Range from m to n, enter number to m:\t').strip()
-    n = input('Range from m to n, enter number to n:\t').strip()
+    m = input('---> m:\t').strip()
+    n = input('---> n:\t').strip()
     if m.isdigit() and n.isdigit():
         m = int(m)
         n = int(n)
-        matrix = []
 
         for x in range(m, n + 1):
-            row = []
-            matrix.append(row)
+            printed_row = []
             for y in range(2, x):
                 if not x % y:
-                    row.append(str(y))
-            print(f'{x}: {" ".join(matrix[x - m])}')
+                    printed_row.append(str(y))
+            print(f'{x}: {" ".join(printed_row)}')
         break
     else:
         print('n and m must be a digit')
         continue
+

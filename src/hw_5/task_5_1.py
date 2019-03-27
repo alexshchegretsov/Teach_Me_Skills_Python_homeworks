@@ -7,15 +7,16 @@
 from random import randint as rd
 
 matrix = [[rd(-100, 100) for x in range(5)] for y in range(5)]
+new_matrix = []
 
-max_num = 0
+max_num = 1
 for x in range(5):
     for y in range(5):
         if max_num < abs(matrix[x][y]):
             max_num = abs(matrix[x][y])
 
-for x in range(5):
-    for y in range(5):
-        matrix[x][y] //= max_num                # whatever
+new_matrix = [[matrix[x][y] // max_num for x in range(5)] for y in range(5)]
+print(new_matrix)
 
-print(matrix)
+
+
