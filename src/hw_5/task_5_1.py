@@ -15,7 +15,7 @@ for x in range(5):
         if max_num < abs(matrix[x][y]):
             max_num = abs(matrix[x][y])
 
-new_matrix = [[matrix[x][y] // max_num for x in range(5)] for y in range(5)]
+new_matrix = [[matrix[x][y] // max_num for y in range(5)] for x in range(5)]
 print(new_matrix)
 
 
