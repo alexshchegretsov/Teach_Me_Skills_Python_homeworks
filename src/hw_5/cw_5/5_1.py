@@ -55,8 +55,8 @@ for i in range(num):
 
 
 summ = 0
-for x in range(num):
-    for j in range(num):
+for x in matrix:
+    for j in row:
         if not matrix[x][j] % 3:
             summ += matrix[x][j]
 print(summ)
