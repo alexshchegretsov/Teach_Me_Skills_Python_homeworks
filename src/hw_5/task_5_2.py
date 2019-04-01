@@ -21,7 +21,7 @@ while True:
 
         for x in range(m, n + 1):
             printed_row = []
-            for y in range(2, x):
+            for y in range(2, x//2 + 1):    # optimized
                 if not x % y:
                     printed_row.append(str(y))
             print(f'{x}: {" ".join(printed_row)}')
