@@ -18,6 +18,9 @@ while True:
         print('Zero division Error!')
         continue
 
+    elif sign == '0':
+        break
+
     elif sign == '/' and Y:
         print(f'{X} {sign} {Y} = {X/Y}')
         continue
@@ -26,9 +29,7 @@ while True:
         print(f'{sign} is invalid operator!')
         continue
 
-    elif sign == '0':
-        break
+
 
     operation = {'-': X - Y, '+': X + Y, '*': X * Y}
     print(f'{X} {sign} {Y} = {operation[sign]}')
-

@@ -4,6 +4,8 @@
 пары дружественных чисел, лежащих в диапазоне от 200 до 300.
 
 """
+from time import time
+print(time())
 m = 200
 n = 300
 matrix = []
@@ -19,7 +21,7 @@ for i, number_dividers in enumerate(matrix):
     for j in range(m, n + 1):
         if sum(number_dividers) == j and sum(matrix[j - m]) == (i + m):
             print(f'{j} and {i + m} are friendly numbers')
-
+print(time())
 
 
 

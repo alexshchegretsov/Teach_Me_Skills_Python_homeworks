@@ -25,8 +25,6 @@ if sub_list_length > 1:
 
 print(f'{seq}\n{count}')
 
-
-
 # Exactly the same, but "while"-ish
 
 # while i < list_length-1:
@@ -41,8 +39,3 @@ print(f'{seq}\n{count}')
 #
 # if sub_list_length > 1:
 #     count += 1
-
-
-
-
-

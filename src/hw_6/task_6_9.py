@@ -19,14 +19,14 @@ trains = [
         'departure': 'Moscow',
         'departure_time': [3, 12],
         'destination': 'Prague',
-        'destination_time': [21, 39]    # 18 ч 27 мин в пути
+        'destination_time': [21, 39]  # 18 ч 27 мин в пути
     },
     {
         'number': 72,
         'departure': 'Minsk',
         'departure_time': [0, 26],
         'destination': 'Munich',
-        'destination_time': [22, 1]    # 22 ч 35 мин
+        'destination_time': [22, 1]  # 22 ч 35 мин
     }
 ]
 
@@ -53,5 +53,3 @@ for train in trains:
         long_distance_trains.append(train)
 
 print(long_distance_trains)
-
-

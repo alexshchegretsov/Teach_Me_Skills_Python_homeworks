@@ -9,4 +9,4 @@ num = list(str(num))
 for x in num:
     summ += int(x)
     mult *= int(x)
-print(summ,mult)
+print(summ, mult)
