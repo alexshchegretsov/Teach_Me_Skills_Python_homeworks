@@ -87,7 +87,7 @@ while True:
         print('  ---' * 10)
         break
 
-    elif operation.isdigit() and operation.isdigit() <= 12:
+    elif operation.isdigit() and 1 <= int(operation) <= 12:
         operation = int(operation)
 
         argument = input(f'Enter amount of {units[operation].split()[0].lower()} >>> ')
