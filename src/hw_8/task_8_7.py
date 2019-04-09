@@ -7,26 +7,26 @@ n!! = 2·4·6·...·n, если n — четное (n > 0 — параметр �
 from typing import Union
 
 
-def factorial_1(number: Union[int, float]) -> float:
+def factorial_1(number: Union[int, float]) -> int:
     """Returns factorial of given number"""
     total = 1
     while number:
         total *= number
         number -= 1
-    return total
+    return int(total)
 
 
-def even(number: int) -> float:
+def even(number: int) -> int:
     """Returns  double factorial of given even number"""
-    return 2 ** (number / 2) * factorial_1(number / 2)
+    return int(2 ** (number / 2) * factorial_1(number / 2))
 
 
-def odd(number: int) -> float:
+def odd(number: int) -> int:
     """Returns double factorial of given odd number"""
-    return factorial_1(number + 1) / even(number + 1)
+    return int(factorial_1(number + 1) / even(number + 1))
 
 
-def factorial_2(number: int) -> float:
+def factorial_2(number: int) -> int:
     """Returns double factorial of odd or even number"""
     return even(number) if not number % 2 else odd(number)
 

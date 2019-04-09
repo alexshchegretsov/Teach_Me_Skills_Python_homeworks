@@ -10,7 +10,7 @@ def counter(*args, **kwargs) -> dict:
     """
     The function checks how many times a specific number
     is repeated from the list and returns a pair of key - the number
-    of repetitions recorded in the dictionary
+    of repetitions  which recorded in the dictionary
     """
     for num in args:
 

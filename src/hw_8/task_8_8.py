@@ -5,14 +5,11 @@
 """
 
 
-def is_palindrome(*args):
+def is_palindrome(*args) -> None:
     """Function determines whether a word from the list is a palindrome"""
     for string in args:
 
-        if string == string[::-1]:
-            print(f"{string} is palindrome")
-        else:
-            print(f"{string} is not palindrome")
+        print(f"{string} is palindrome" if string == string[::-1] else f"{string} is not palindrome")
 
 
 A = ['savvas', 'wertrew', 'sdgk', 'sjdkt']

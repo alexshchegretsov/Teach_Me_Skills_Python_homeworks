@@ -5,9 +5,10 @@
 используя функцию определения суммы.
 """
 from random import randint as rd
+from typing import Union
 
 
-def sum_of_positive_and_negative(*args):
+def sum_of_positive_and_negative(*args) -> Union[int, tuple]:
     """Returns the sum of positive and sum of negative elements"""
 
     all_summ = sum(args)
