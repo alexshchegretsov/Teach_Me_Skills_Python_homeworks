@@ -33,8 +33,7 @@ def is_power_n(k, n: int) -> bool:
             return True
         elif k < 1:
             return False
-        else:
-            k /= n
+        k /= n
 
 
 def power_amount(n: int, *args) -> int:

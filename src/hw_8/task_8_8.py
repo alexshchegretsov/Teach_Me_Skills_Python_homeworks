@@ -14,3 +14,4 @@ def is_palindrome(*args) -> None:
 
 A = ['savvas', 'wertrew', 'sdgk', 'sjdkt']
 is_palindrome(*A)
+
