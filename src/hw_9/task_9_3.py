@@ -4,7 +4,6 @@
 удалять все четные элементы из списка.
 
 """
-from typing import Callable
 
 def checker(func):
     def wrapper(*args, **kwargs):
