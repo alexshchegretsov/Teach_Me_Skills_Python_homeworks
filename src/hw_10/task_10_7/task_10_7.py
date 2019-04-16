@@ -148,7 +148,6 @@ def find_user():
                         break
                     else:
                         continue
-                # break
                 decision = input('Enter 1 to continue, 0 to BACK in menu >>>')
                 if decision.isdigit() and not int(decision):
                     break
