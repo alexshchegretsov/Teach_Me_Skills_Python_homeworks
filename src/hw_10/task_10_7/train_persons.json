@@ -1,0 +1,30 @@
+[
+  {
+    "first_name": "Alex",
+    "last_name": "Shchegretsov",
+    "birth_date": "1989-11-03",
+    "profession": "python dev",
+    "id": "4"
+  },
+  {
+    "first_name": "Andrey",
+    "last_name": "Fomenko",
+    "birth_date": "1990-09-14",
+    "profession": "dev ops",
+    "id": "8"
+  },
+  {
+    "first_name": "Alexei",
+    "last_name": "Syryk",
+    "birth_date": "1989-08-21",
+    "profession": "unemployed",
+    "id": "58"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "birth_date": "1990-12-02",
+    "profession": "c dev",
+    "id": "17"
+  }
+]
