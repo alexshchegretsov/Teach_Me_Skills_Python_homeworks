@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a744ffe1-e818-4df8-bf75-b9bb3dfeb511" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/hw_10/dates.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_10/dates.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_10/task_10_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_10/task_10_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_10/task_10_7/train_persons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_10/task_10_7/train_persons.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_course_tms$read_lines.coverage" NAME="read_lines Coverage Results" MODIFIED="1555199171178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$trainjson.coverage" NAME="trainjson Coverage Results" MODIFIED="1555430027659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/task_10_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_7.coverage" NAME="task_8_7 Coverage Results" MODIFIED="1554661530661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_1.coverage" NAME="task_10_1 Coverage Results" MODIFIED="1555271374089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_8.coverage" NAME="cw_8 Coverage Results" MODIFIED="1554403543761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8/cw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_8.coverage" NAME="task_6_8 Coverage Results" MODIFIED="1554223544481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_4.coverage" NAME="task_8_4 Coverage Results" MODIFIED="1554648666223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_9_2.coverage" NAME="task_9_2 Coverage Results" MODIFIED="1554853407769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9" />
+    <SUITE FILE_PATH="coverage/python_course_tms$json.coverage" NAME="json Coverage Results" MODIFIED="1555183708793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$jjj.coverage" NAME="jjj Coverage Results" MODIFIED="1555185952921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_11_2.coverage" NAME="task_11_2 Coverage Results" MODIFIED="1555592181483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_11.coverage" NAME="cw_11 Coverage Results" MODIFIED="1555439138321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_4.coverage" NAME="task_10_4 Coverage Results" MODIFIED="1555277044995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_10.coverage" NAME="task_5_10 Coverage Results" MODIFIED="1553814613789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6/cw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_7_10.coverage" NAME="task_7_10 Coverage Results" MODIFIED="1554503896893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_7_13.coverage" NAME="task_7_13 Coverage Results" MODIFIED="1554558310054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$re52.coverage" NAME="re52 Coverage Results" MODIFIED="1553699704016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_5" />
+    <SUITE FILE_PATH="coverage/python_course_tms$insertion_sort.coverage" NAME="insertion_sort Coverage Results" MODIFIED="1555498029697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_1.coverage" NAME="task_6_1 Coverage Results" MODIFIED="1553882943817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$def.coverage" NAME="def Coverage Results" MODIFIED="1554997668128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_course_tms$filter.coverage" NAME="filter Coverage Results" MODIFIED="1555164885318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_2.coverage" NAME="task_10_2 Coverage Results" MODIFIED="1555271626495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$path.coverage" NAME="path Coverage Results" MODIFIED="1554299515285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$map.coverage" NAME="map Coverage Results" MODIFIED="1555172221417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_9.coverage" NAME="task_8_9 Coverage Results" MODIFIED="1554767760838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_7.coverage" NAME="task_6_7 Coverage Results" MODIFIED="1553982532247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$abs.coverage" NAME="abs Coverage Results" MODIFIED="1554241411975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_1.coverage" NAME="task_5_1 Coverage Results" MODIFIED="1553788824134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_5" />
+    <SUITE FILE_PATH="coverage/python_course_tms$test.coverage" NAME="test Coverage Results" MODIFIED="1554294147040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_7.coverage" NAME="task_5_7 Coverage Results" MODIFIED="1553816868817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6/cw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_7.coverage" NAME="cw_7 Coverage Results" MODIFIED="1554237492040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_7/cw_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$conversion.coverage" NAME="conversion Coverage Results" MODIFIED="1554303719512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$calc.coverage" NAME="calc Coverage Results" MODIFIED="1553880535039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$game.coverage" NAME="game Coverage Results" MODIFIED="1553865639631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_3.coverage" NAME="task_10_3 Coverage Results" MODIFIED="1555273556413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_2.coverage" NAME="task_6_2 Coverage Results" MODIFIED="1553883853874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_7_8.coverage" NAME="task_7_8 Coverage Results" MODIFIED="1554494519831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_9_4.coverage" NAME="task_9_4 Coverage Results" MODIFIED="1554998335179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9" />
+    <SUITE FILE_PATH="coverage/python_course_tms$check_string.coverage" NAME="check_string Coverage Results" MODIFIED="1553549996929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_11.coverage" NAME="task_5_11 Coverage Results" MODIFIED="1553815696806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6/cw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_11__property.coverage" NAME="cw_11__property Coverage Results" MODIFIED="1555492626937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_4_1.coverage" NAME="task_4_1 Coverage Results" MODIFIED="1553454219679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_4" />
+    <SUITE FILE_PATH="coverage/python_course_tms$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1554993286277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9/cw_9" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_2.coverage" NAME="task_5_2 Coverage Results" MODIFIED="1553789921920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_5" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_4_4.coverage" NAME="task_4_4 Coverage Results" MODIFIED="1553523210273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_4" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_8.coverage" NAME="task_8_8 Coverage Results" MODIFIED="1554804566109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$total.coverage" NAME="total Coverage Results" MODIFIED="1555162004791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$main.coverage" NAME="main Coverage Results" MODIFIED="1555355272435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/task_10_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_7_1.coverage" NAME="task_7_1 Coverage Results" MODIFIED="1554308848997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_5.coverage" NAME="task_8_5 Coverage Results" MODIFIED="1554828514581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_9_3.coverage" NAME="task_9_3 Coverage Results" MODIFIED="1554999255457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_3.coverage" NAME="task_6_3 Coverage Results" MODIFIED="1554222457947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_9.coverage" NAME="cw_9 Coverage Results" MODIFIED="1554836582252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9/cw_9" />
+    <SUITE FILE_PATH="coverage/python_course_tms$sort_remove.coverage" NAME="sort_remove Coverage Results" MODIFIED="1554937651288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_course_tms$666.coverage" NAME="666 Coverage Results" MODIFIED="1554062835582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_6.coverage" NAME="task_6_6 Coverage Results" MODIFIED="1554065461977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_2.coverage" NAME="task_8_2 Coverage Results" MODIFIED="1554826285114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_6.coverage" NAME="cw_6 Coverage Results" MODIFIED="1553809703015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6/cw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_8.coverage" NAME="task_5_8 Coverage Results" MODIFIED="1553817046235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6/cw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$train.coverage" NAME="train Coverage Results" MODIFIED="1555585095579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_5.coverage" NAME="task_10_5 Coverage Results" MODIFIED="1555332786219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_9_1.coverage" NAME="task_9_1 Coverage Results" MODIFIED="1554851206496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9" />
+    <SUITE FILE_PATH="coverage/python_course_tms$time_decorator.coverage" NAME="time_decorator Coverage Results" MODIFIED="1555164492701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_5_9.coverage" NAME="task_5_9 Coverage Results" MODIFIED="1553873681420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$5_1.coverage" NAME="5_1 Coverage Results" MODIFIED="1553626760107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_5/cw_5" />
+    <SUITE FILE_PATH="coverage/python_course_tms$deco.coverage" NAME="deco Coverage Results" MODIFIED="1554931470427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_77.coverage" NAME="task_10_77 Coverage Results" MODIFIED="1555430240749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/task_10_7" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_4.coverage" NAME="task_6_4 Coverage Results" MODIFIED="1553895692416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$indices.coverage" NAME="indices Coverage Results" MODIFIED="1554247084647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_4_3.coverage" NAME="task_4_3 Coverage Results" MODIFIED="1553617144834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_4" />
+    <SUITE FILE_PATH="coverage/python_course_tms$dog.coverage" NAME="dog Coverage Results" MODIFIED="1555535524524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_6_5.coverage" NAME="task_6_5 Coverage Results" MODIFIED="1554222619911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_10_6.coverage" NAME="task_10_6 Coverage Results" MODIFIED="1555432749291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1554587451194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+    <SUITE FILE_PATH="coverage/python_course_tms$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1554815318496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/algorithms" />
+    <SUITE FILE_PATH="coverage/python_course_tms$cw_10.coverage" NAME="cw_10 Coverage Results" MODIFIED="1555021066044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_8_6.coverage" NAME="task_8_6 Coverage Results" MODIFIED="1554633610219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cw_11.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cw_11__property.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="287" lean-forward="true" selection-end-line="287" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_11_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw_11/task_11_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_11_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hw_11/task_11_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dog.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/dog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>conversion</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/hw_8/task_8_7.py" />
+        <option value="$PROJECT_DIR$/src/hw_8/task_8_9.py" />
+        <option value="$PROJECT_DIR$/src/algorithms.py" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorted.py" />
+        <option value="$PROJECT_DIR$/src/hw_8/task_8_5.py" />
+        <option value="$PROJECT_DIR$/src/hw_8/task_8_8.py" />
+        <option value="$PROJECT_DIR$/src/hw_9/task_9_1.py" />
+        <option value="$PROJECT_DIR$/src/hw_9/task_9_2.py" />
+        <option value="$PROJECT_DIR$/src/hw_9/cw_9/cw_9.py" />
+        <option value="$PROJECT_DIR$/src/deco.py" />
+        <option value="$PROJECT_DIR$/src/sort_remove.py" />
+        <option value="$PROJECT_DIR$/src/hw_9/cw_9/decorators.py" />
+        <option value="$PROJECT_DIR$/src/def.py" />
+        <option value="$PROJECT_DIR$/src/hw_9/task_9_4.py" />
+        <option value="$PROJECT_DIR$/src/hw_10.py" />
+        <option value="$PROJECT_DIR$/src/hw_9/task_9_3.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/test.txt" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/cw_10.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/total.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/train_declare.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/time_decorator.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/filter.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/map.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/json.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/cw_10/jjj.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/train.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_2.txt" />
+        <option value="$PROJECT_DIR$/src/hw_10/read_lines.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_1.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/hw_10.txt" />
+        <option value="$PROJECT_DIR$/src/hw_10/new_file.txt" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_3.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_2.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_4.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/matrix.json" />
+        <option value="$PROJECT_DIR$/src/hw_10/dates.txt" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_5.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_7/main.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_7/train.json" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_7/trainjson.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_7/train_persons.json" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_7/task_10_7.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_7/task_10_77.py" />
+        <option value="$PROJECT_DIR$/src/hw_10/task_10_6.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/cw_11/insertion_sort.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/cw_11/dog.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/cw_11/train.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/task_11_1.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/task_11_2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="47" />
+    <option name="width" value="1211" />
+    <option name="height" value="640" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python_course_tms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_course_tms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_course_tms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_course_tms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_course_tms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_course_tms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_8" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python_course_tms" type="cbb8eebc:String" user="python_course_tms" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python_course_tms" type="cbb8eebc:String" user="python_course_tms" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python_course_tms" type="cbb8eebc:String" user="python_course_tms" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="hw_11" type="cbb8eebc:String" user="hw_11" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="python_course_tms" type="cbb8eebc:String" user="python_course_tms" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="hw_11" type="cbb8eebc:String" user="hw_11" />
+              <item name="cw_11" type="cbb8eebc:String" user="cw_11" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hw_10/cw_10" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hw_10/cw_10" />
+      <recent name="$PROJECT_DIR$/src/hw_8/cw_8" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.task_11_2">
+    <configuration name="cw_11__property" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_course_tms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hw_11/cw_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_course_tms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hw_11/cw_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hw_11/cw_11/dog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_course_tms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hw_11/cw_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hw_11/cw_11/insertion_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="task_11_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_course_tms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hw_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hw_11/task_11_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_course_tms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/hw_11/cw_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hw_11/cw_11/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.cw_11__property" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.insertion_sort" />
+      <item itemvalue="Python.dog" />
+      <item itemvalue="Python.task_11_2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task_11_2" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.dog" />
+        <item itemvalue="Python.insertion_sort" />
+        <item itemvalue="Python.cw_11__property" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a744ffe1-e818-4df8-bf75-b9bb3dfeb511" name="Default" comment="" />
+      <created>1553454183010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553454183010</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23442623" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19016394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14469697" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.070491806" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="7" visible="true" weight="0.3295082" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/hw_6/task_5_9.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/hw_9/task_9_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/file.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/train_declare.py" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/time_decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/total.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="249" column="25" lean-forward="true" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/json.py" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/movie_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/jjj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_9/task_9_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_9/task_9_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_2.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/test.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/cw_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/hw_10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/even.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/odd.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/new_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/read_lines.py" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/matrix.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/even_to_zero.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1528" column="8" lean-forward="true" selection-start-line="1528" selection-start-column="8" selection-end-line="1528" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/dates.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/cw_10/read_lines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/persons.json" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/train.json" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/main.py" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/trainjson.py" />
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/task_10_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/task_10_77.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="166" column="17" lean-forward="true" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_10/task_10_7/train_persons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort_remove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorted.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/dog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="287" lean-forward="true" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/task_11_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/task_11_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
