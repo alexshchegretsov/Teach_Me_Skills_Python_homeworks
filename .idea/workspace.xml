@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a744ffe1-e818-4df8-bf75-b9bb3dfeb511" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hw_10/dates.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_10/dates.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw_10/task_10_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_10/task_10_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw_10/task_10_7/train_persons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_10/task_10_7/train_persons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_11/cw_11/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_11/cw_11/dog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_11/task_11_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_11/task_11_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +23,7 @@
     <SUITE FILE_PATH="coverage/python_course_tms$task_9_2.coverage" NAME="task_9_2 Coverage Results" MODIFIED="1554853407769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_9" />
     <SUITE FILE_PATH="coverage/python_course_tms$json.coverage" NAME="json Coverage Results" MODIFIED="1555183708793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
     <SUITE FILE_PATH="coverage/python_course_tms$jjj.coverage" NAME="jjj Coverage Results" MODIFIED="1555185952921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10/cw_10" />
-    <SUITE FILE_PATH="coverage/python_course_tms$task_11_2.coverage" NAME="task_11_2 Coverage Results" MODIFIED="1555592181483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$task_11_2.coverage" NAME="task_11_2 Coverage Results" MODIFIED="1555602781839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11" />
     <SUITE FILE_PATH="coverage/python_course_tms$cw_11.coverage" NAME="cw_11 Coverage Results" MODIFIED="1555439138321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
     <SUITE FILE_PATH="coverage/python_course_tms$task_10_4.coverage" NAME="task_10_4 Coverage Results" MODIFIED="1555277044995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
     <SUITE FILE_PATH="coverage/python_course_tms$task_5_10.coverage" NAME="task_5_10 Coverage Results" MODIFIED="1553814613789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6/cw_6" />
@@ -84,7 +83,7 @@
     <SUITE FILE_PATH="coverage/python_course_tms$task_6_4.coverage" NAME="task_6_4 Coverage Results" MODIFIED="1553895692416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
     <SUITE FILE_PATH="coverage/python_course_tms$indices.coverage" NAME="indices Coverage Results" MODIFIED="1554247084647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/python_course_tms$task_4_3.coverage" NAME="task_4_3 Coverage Results" MODIFIED="1553617144834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_4" />
-    <SUITE FILE_PATH="coverage/python_course_tms$dog.coverage" NAME="dog Coverage Results" MODIFIED="1555535524524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
+    <SUITE FILE_PATH="coverage/python_course_tms$dog.coverage" NAME="dog Coverage Results" MODIFIED="1555602383353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_11/cw_11" />
     <SUITE FILE_PATH="coverage/python_course_tms$task_6_5.coverage" NAME="task_6_5 Coverage Results" MODIFIED="1554222619911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_6" />
     <SUITE FILE_PATH="coverage/python_course_tms$task_10_6.coverage" NAME="task_10_6 Coverage Results" MODIFIED="1555432749291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_10" />
     <SUITE FILE_PATH="coverage/python_course_tms$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1554587451194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/hw_8" />
@@ -97,26 +96,8 @@
       <file leaf-file-name="cw_11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="20">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cw_11__property.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="287" lean-forward="true" selection-end-line="287" />
             </state>
           </provider>
         </entry>
@@ -133,8 +114,8 @@
       <file leaf-file-name="task_11_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hw_11/task_11_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            <state relative-caret-position="358">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -142,8 +123,8 @@
       <file leaf-file-name="dog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/dog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="160">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -215,9 +196,9 @@
         <option value="$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py" />
         <option value="$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py" />
         <option value="$PROJECT_DIR$/src/hw_11/cw_11/insertion_sort.py" />
-        <option value="$PROJECT_DIR$/src/hw_11/cw_11/dog.py" />
         <option value="$PROJECT_DIR$/src/hw_11/cw_11/train.py" />
         <option value="$PROJECT_DIR$/src/hw_11/task_11_1.py" />
+        <option value="$PROJECT_DIR$/src/hw_11/cw_11/dog.py" />
         <option value="$PROJECT_DIR$/src/hw_11/task_11_2.py" />
       </list>
     </option>
@@ -433,8 +414,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.task_11_2" />
-        <item itemvalue="Python.train" />
         <item itemvalue="Python.dog" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.insertion_sort" />
         <item itemvalue="Python.cw_11__property" />
       </list>
@@ -462,9 +443,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23442623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25737706" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19016394" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14469697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14696969" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -721,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11__property.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -735,17 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/dog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="287" lean-forward="true" selection-end-line="287" />
+        <state relative-caret-position="5740">
+          <caret line="287" selection-end-line="287" />
         </state>
       </provider>
     </entry>
@@ -756,10 +723,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/cw_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw_11/cw_11/dog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw_11/task_11_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        <state relative-caret-position="358">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>

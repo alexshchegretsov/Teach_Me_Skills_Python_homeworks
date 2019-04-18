@@ -35,7 +35,7 @@ class Car:
     stop
         Resets speed to zero
     turn
-        Represents speed change
+        Сhanges the vector to the opposite
 
     """
 
@@ -76,17 +76,14 @@ class Car:
         """Returns speed value"""
         return self.__speed
 
-    # Is it turn?
-    @speed.setter
-    def speed(self, value):
-        """Sets speed"""
-        self.__speed = value
+    def turn(self):
+        """Сhanges the vector to the opposite"""
+        self.__speed = -self.__speed
 
 
 car_1 = Car('zhiguli', '2101', 1990)
 
 car_1.speed_up()
 print(car_1.speed)
-car_1.stop()
-car_1.speed = 20
+car_1.turn()
 print(car_1.speed)

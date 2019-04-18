@@ -1,22 +1,9 @@
-class Dog:
-    def __init__(self, name, color, master):
-        self.name = name
-        self.color = color
-        self.__master = master
+from random import randint as rd
 
-    def bark(self):
-        print('Wooof!')
-
-    @property
-    def master(self):
-        return self.__master
-
-    @master.setter
-    def master(self,master):
-        self.__master = master
-
-
-dog_1 = Dog('Bob', 'black', 'Alex')
-dog_1.master = 'oleg'
-print(dog_1.master)
-
+A = [rd(-10, 10) for _ in range(10)]
+print(A)
+for i in range(1, len(A)):
+    while i > 0 and A[i - 1] > A[i]:
+        A[i - 1], A[i] = A[i], A[i - 1]
+        i -= 1
+print(A)
