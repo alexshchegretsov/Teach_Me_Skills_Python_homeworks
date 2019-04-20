@@ -12,5 +12,12 @@
     "birth_date": "1989-08-24",
     "profession": "professional unemplyed",
     "id": 2
+  },
+  {
+    "first_name": "Dexter",
+    "last_name": "Holland",
+    "birth_date": "1960-12-12",
+    "profession": "voc",
+    "id": 3
   }
 ]
