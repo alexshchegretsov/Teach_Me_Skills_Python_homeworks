@@ -1,0 +1,16 @@
+[
+  {
+    "first_name": "Alex",
+    "last_name": "Shchegretsov",
+    "birth_date": "1989-11-03",
+    "profession": "python dev",
+    "id": 1
+  },
+  {
+    "first_name": "Alexey",
+    "last_name": "Syryk",
+    "birth_date": "1989-08-24",
+    "profession": "professional unemplyed",
+    "id": 2
+  }
+]
