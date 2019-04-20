@@ -29,19 +29,8 @@ def just_press_enter_to_continue():
     input('Press ENTER to continue >>>')
 
 
-def display_amount_users(func):
-    def wrapper():
-        print('\t\t\t\t\t\t\t\t\tversion 1.11 beta')
-        func()
-        print(f'users in database: {len(read_db())}')
-        print('-' * 55)
-        return func
-
-    return wrapper
-
-
-@display_amount_users
 def menu():
+    print('\t\t\t\t\t\t\t\t\tversion 1.21 beta')
     print('-' * 55)
     print('\t\t\t\t\t  MENU')
     print('enter the appropriate number to perform the operation')
@@ -55,6 +44,7 @@ def menu():
                 6. Filter by keyword
                 
                     """)
+    print(f'users in database: {len(read_db())}')
     print('-' * 55)
     print('\t\t\t\tFor EXIT enter 0')
     print('-' * 55)
@@ -66,7 +56,7 @@ def choose_operation():
         if operation.isdigit() and 0 <= int(operation) < 7:
             return int(operation)
         else:
-            print('Enter correct value from 0 to 7')
+            print('Enter correct value from 0 to 6')
             sleep(3)
             continue
 
@@ -90,7 +80,7 @@ def create_user():
 
 def delete_user():
     data_base = read_db()
-    user_id = enter_user_id()
+    user_id = validation_user_id()
     del data_base[user_id - 1]
     refresh_db(data_base)
     print('Operation completed correctly!')
@@ -99,7 +89,7 @@ def delete_user():
 
 def show_n_users():
     data = read_db()
-    user_amount = number_of_users()
+    user_amount = validation_number()
     for index in range(user_amount):
         for k, v in data[index].items():
             print(f'{k}: {v}')
@@ -109,7 +99,7 @@ def show_n_users():
 
 def search_user():
     data_base = read_db()
-    user_id = enter_user_id()
+    user_id = validation_user_id()
     for k, v in data_base[user_id - 1].items():
         print(f'{k}: {v}')
     print('-' * 28)
@@ -118,7 +108,7 @@ def search_user():
 
 def edit_user():
     data_base = read_db()
-    user_id = enter_user_id()
+    user_id = validation_user_id()
     current_user = data_base.pop(user_id - 1)
     editing_user = {k: input(f'{k,v}  Press ENTER if not change >>>') for (k, v) in current_user.items()}
     for k, v in editing_user.items():
@@ -131,7 +121,7 @@ def edit_user():
 def filter_by_keyword():
     data_base = read_db()
     keyword = input('Keyword to filter search >>>').title()
-    for i, user in enumerate(data_base):
+    for user in data_base:
         if user['first_name'] == keyword or user['last_name'] == keyword:
             for k, v in user.items():
                 print(f'{k}: {v}')
@@ -142,7 +132,7 @@ def filter_by_keyword():
             sleep(2.5)
 
 
-def number_of_users():
+def validation_number():
     length_db = len(read_db())
     while True:
         user_amount = input('Enter number of users >>>')
@@ -155,7 +145,7 @@ def number_of_users():
             continue
 
 
-def enter_user_id():
+def validation_user_id():
     length_db = len(read_db())
     while True:
         user_id = input('Enter USER id >>>')
