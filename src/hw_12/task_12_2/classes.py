@@ -19,7 +19,7 @@ class MyTime:
         elif type(args[0]) == int and len(args) == 3:
             self.hours, self.minutes, self.seconds = args
 
-        elif args[0].__dict__:
+        elif isinstance(args[0],MyTime):
             self.hours = args[0].__dict__['hours']
             self.minutes = args[0].__dict__['minutes']
             self.seconds = args[0].__dict__['seconds']
@@ -85,3 +85,4 @@ class MyTime:
         if self.seconds < 10:
             z = 0
         return ''.join(f'{x}{self.hours}:{y}{self.minutes}:{z}{self.seconds}'.split('None'))
+
