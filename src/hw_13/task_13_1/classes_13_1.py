@@ -18,8 +18,8 @@ class Pet:
         """Return class private attribute"""
         return cls.__counter
 
-    @classmethod
-    def get_random_name(cls) -> str:
+    @staticmethod
+    def get_random_name() -> str:
         """Return random name in format [A-Z]-[0-100]"""
         return f'{chr(rd(65,90))}-{rd(0,100)}'
 

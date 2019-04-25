@@ -22,7 +22,7 @@ def main():
     print(dog_1.get_counter())
     mule_1 = Mule('Ia', 20, 'Iakov', 40, 0.7)
     mule_1.voice()
-    print(Pet.get_random_name())
+    print(mule_1.get_random_name())
 
 if __name__ == '__main__':
     main()
