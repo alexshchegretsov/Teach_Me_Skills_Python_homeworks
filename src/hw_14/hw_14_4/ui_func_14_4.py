@@ -3,7 +3,8 @@ import sys
 
 class Menu:
 
-    def display_menu(self):
+    @staticmethod
+    def display_menu():
         print('-' * 55)
         print('\t\t\t\t    CALCULATE')
         print('enter the appropriate number to perform the operation')
@@ -15,14 +16,14 @@ class Menu:
                     4. Div
 
 
-types: int, float, complex""")
+""")
         print('-' * 55)
         print('\t\t\t\tFor EXIT enter 0')
         print('-' * 55)
 
     @staticmethod
     def press_enter():
-        input('press ENTER to continue >>>')
+        input('press ENTER to continue >>> ')
 
     @staticmethod
     def quit_program():

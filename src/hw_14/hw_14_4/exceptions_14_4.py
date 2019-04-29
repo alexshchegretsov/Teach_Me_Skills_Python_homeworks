@@ -1,5 +1,4 @@
-from classes_14_4 import Math
-from ui_func_14_4 import Menu
+from typing import Tuple
 
 
 def validation_operation() -> str:
@@ -11,34 +10,22 @@ def validation_operation() -> str:
             print(f"There is no operation {choice}")
 
 
-def validation_numbers(choice: str) -> int:
+def validation(choice: str) -> Tuple[int, int]:
     while True:
-        if choice == "0":
-            Menu().quit_program()
-
-        num_1 = input('first operand >>>')
-        num_2 = input('second operand >>>')
-
-        if choice == "1":
+        if choice in ["1", "2", "3"]:
             try:
-                return Math(num_1, num_2).addition()
-            except (NameError, SyntaxError, TypeError) as er:
+                num_1 = int(input('first operand >>>'))
+                num_2 = int(input('second operand >>>'))
+                return num_1, num_2
+            except (ValueError, TypeError) as er:
                 print(f'Error - {er}')
-
-        elif choice == "2":
+        else:
             try:
-                return Math(num_1, num_2).substraction()
-            except (NameError, SyntaxError, TypeError) as er:
-                print(f'Error - {er}')
-
-        elif choice == "3":
-            try:
-                return Math(num_1, num_2).multiply()
-            except (NameError, SyntaxError, TypeError) as er:
-                print(f'Error - {er}')
-
-        elif choice == "4":
-            try:
-                return Math(num_1, num_2).division()
-            except (NameError, ZeroDivisionError, SyntaxError, TypeError) as er:
+                num_1 = int(input('first operand >>>'))
+                num_2 = int(input('second operand >>>'))
+                if not num_2:
+                    print('ZeroDivisionError')
+                else:
+                    return num_1, num_2
+            except (ValueError, TypeError) as er:
                 print(f'Error - {er}')

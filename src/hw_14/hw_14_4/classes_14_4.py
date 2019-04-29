@@ -4,15 +4,13 @@ class Math:
         self.y = y
 
     def addition(self):
-        return eval(f'{self.x} + {self.y}')
+        return self.x + self.y
 
     def substraction(self):
-        return eval(f'{self.x} - {self.y}')
+        return self.x - self.y
 
     def multiply(self):
-        return eval(f'{self.x} * {self.y}')
+        return self.x * self.y
 
     def division(self):
-        return eval(f'{self.x} / {self.y}')
-
-
+        return self.x / self.y
