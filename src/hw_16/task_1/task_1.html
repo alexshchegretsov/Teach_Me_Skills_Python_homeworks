@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main_2 {width: 790px}
+
+        .check_wrapper {
+            display: flex;
+            width: 680px;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        .check_group {
+            display: grid;
+
+        }
+
+        .wrapper_1 {
+            display: flex;
+            width: 400px;
+            justify-content: space-between;
+        }
+
+        .wrapper_2 {
+            display: flex;
+            width: 700px;
+            justify-content: space-between;
+        }
+
+        .wrapper_3 {
+            display: flex;
+            width: 500px;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .wrapper_4 {
+            display: flex;
+            width: 670px;
+            flex-direction: row;
+
+        }
+
+        #div_ta {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        #td {
+            width: 100px;
+            border-left: solid 2px;
+            border-right: solid 2px;
+        }
+
+        #little_td {
+            border-right: solid 3.5px;
+            margin: 20px;
+            padding-right: 20px;
+        }
+
+        #little_td_2 {
+            border-left: solid 3.5px;
+            width: 50px;
+            margin: 15px;
+        }
+
+        #scale {
+            transform: scale(1.7);
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+    </style>
+    <title>form</title>
+</head>
+<body>
+<form action="http://xxx.com" method="post">
+    <div class="container">
+    <div class="main_1">
+        <fieldset id="first_page">
+        <legend><i>page 1</i></legend>
+    <fieldset>
+        <fieldset>
+            <legend><b>A</b></legend>
+            <label for="x_1">№ п.п.домохозяйства в пределах помещения</label><br>
+        <input type="text" id="x_1" name="household_passport_number" placeholder="введите число" size="7">
+        </fieldset>
+        <fieldset>
+            <legend><b>Б</b></legend>
+            <label for="x_2">№ п.п. лица в пределах домохозяйства, на которое заполняется переписной лист</label><br>
+            <input type="text" id="x_2" name="household_person" placeholder="введите число" size="7">
+        </fieldset>
+        <h4>Первому по порядку члена домохозяйства отметьте "записан первым"<br>
+            Остальным членам домохозяйства отметьте, кем он (она) приходится тому, <br> кто записан первым
+        </h4><br>
+        <div class="check_wrapper">
+            <div class="check_group">
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> записан первым
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> жена, муж
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> дочь, сын
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> мать, отец
+                </label><br>
+            </div>
+            <div class="check_group">
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> сестра, брат
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> свекровь, свёкр, тёща, тесть
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> невестка(сноха), зять
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> бабушка, дедушка
+                </label><br>
+            </div>
+            <div class="check_group">
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> внучка, внук
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> другая степень родства
+                </label><br>
+                <label>
+                    <input type="checkbox" name="rel_person" id="scale"> <sup style="color: red">*</sup>не родственник
+                </label><br>
+            </div>
+        </div>
+        <p></p>
+        <div class="check_wrapper">
+            <div>
+                <label for="x_4"><sup style="color: red">*</sup><i> Опишите пункт</i></label><br>
+                <textarea name="ne_rodstvennik" id="x_4" cols="30" rows="5"
+                          placeholder="например, опекаемый ребнок, наёный работник"></textarea>
+            </div>
+            <div>
+                <label for="x_3"><b>Если мать(или отец) этого лица <br> проживает с ним
+                    в одном домохозяйстве, <br> то проставьте порядковый номер из зоны Б, <br>
+                    под которым записана мать(или отец) <br> опрашиваемого</b>
+                </label><br>
+                <input type="text" name="mother_or_father_number" id="x_3" placeholder="введите число">
+            </div>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Ваш пол</b></legend>
+            <div class="wrapper_1">
+                <div>
+                    <label><input type="radio" name="gender" checked id="scale"> мужской</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="gender" id="scale"> женский</label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Дата рождения</b></legend>
+            <div class="wrapper_2">
+                <div>
+                    <label for="b_y">Год</label><br>
+                    <input type="text" name="birth_year" id="b_y" size="1" placeholder="2019" pattern="\d{4}">
+                </div>
+                <div>
+                    <label for="b_m">Месяц</label><br>
+                    <select name="list_months" id="b_m">
+                        <option value="0" selected>Январь</option>
+                        <option value="1">Февраль</option>
+                        <option value="2">Март</option>
+                        <option value="3">Апрель</option>
+                        <option value="4">Май</option>
+                        <option value="5">Июнь</option>
+                        <option value="6">Июль</option>
+                        <option value="7">Август</option>
+                        <option value="8">Сентябрь</option>
+                        <option value="9">Октябрь</option>
+                        <option value="10">Ноябрь</option>
+                        <option value="11">Декабрь</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="b_d"> День</label><br>
+                    <input type="number" name="birth_day" id="b_d" min="1" max="31" step="1" value="1">
+                </div>
+                <div>
+                    <label for="x_4">Число исполнившихся лет</label><br>
+                    <input type="text" size="1" id="x_4" name="full_age">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Место вашего рождения</b></legend>
+            <div class="wrapper_3">
+                <div>
+                    <textarea name="place" cols="50" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="text" size="1" placeholder="БССР">
+                </div>
+            </div>
+            <div style="width: 500px">
+                <p><i>Запишите наименование республики, края, области, авт. области ,
+                    авт. округа, г.Москва, г.Санкт-Петербург для России (в том числе РСФСР)
+                    или наименование иностранного государства, которое оно имело
+                    на момент рождения опрашиваемого (в том числе союзной республики бывшего СССР)</i></p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Ваше состояние в браке</b></legend>
+            <h5><i>Для лиц в возрасте 16 лет и более и состоящих в браке лиц до 16 лет</i></h5><br>
+
+            <table width="680">
+                <tr>
+                    <td colspan="2" valign="top"><i>Отметьте подсказ, соответствующий состоянию в браке на 14 октября
+                        2010
+                        года</i></td>
+                    <td rowspan="2" style="width: 250px"><b>Если супруг(а) этого лица проживает с ней(ним) в одном
+                        домохозяйстве
+                        , то проставьте порядковый номериз зоны Б, под которым запсан(а) супруг(а) опрашиваемого</b><sup
+                            style="color: red">*</sup>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>состою в браке<input type="checkbox" name="merried" id="scale"></label>
+                        <span>&#10148;</span>
+                    </td>
+                    <td>
+                        <table id="td">
+                            <tr>
+                                <th colspan="2">Зарегистрирован ли ваш брак?</th>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <label>Да<input type="radio" name="merried_2" id="scale"></label>
+                                </td>
+                                <td align="center">
+                                    <label>Нет<input type="radio" name="merried_2" id="scale"></label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <div class="wrapper_4">
+                <div>
+                    <label><input type="checkbox" name="not_merried" id="scale"> рзведена офциально(развод
+                        зарегистрирован)</label><br>
+                    <label><input type="checkbox" name="not_merried" id="scale"> разошёлся(разошлась)</label><br>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="not_merried" id="scale"> вдовец, вдова</label><br>
+                    <label><input type="checkbox" name="not_merried" id="scale"> никогда не состоял(а) в
+                        браке</label><br>
+                </div>
+
+                <input type="text" id="x_5" name="husband_nomber" size="5"><label for="x_5"><sup
+                    style="color: red">*</sup><i>№ супруга</i></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Ваше гражданство</b></legend>
+            <label><i>Российской Федерации </i><input type="checkbox" name="citizenship" id="scale"></label>
+            <p></p>
+            <i>Для граждан иностранного государства и лиц с двойным <br>
+                гражданством запишите наименование государства</i>
+            <div class="wrapper_3">
+                <div>
+                    <textarea name="place" cols="50" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="text" size="1" placeholder="БССР">
+                </div>
+            </div>
+            <label><i>Без гражданства </i><input type="checkbox" name="citizenship" id="scale"></label>
+        </fieldset>
+        </fieldset>
+    </div>
+    <div class="main_2">
+        <fieldset>
+            <legend><i>page 2</i></legend>
+        <fieldset>
+            <legend><b>Ваша национальная принадлежность</b></legend>
+            <p><i>По самоопределению в соответствии с ст.26 конституции рф</i></p>
+            <div class="wrapper_3">
+                <div>
+                    <textarea name="place" cols="50" rows="5"></textarea>
+                </div>
+                <div id="div_ta">
+                    <input type="text" size="1" placeholder="БССР">
+                    <p></p>
+                    <label><i>отказ от <br> ответа </i><input type="checkbox" name="citizenship" id="scale"></label><br>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Образование и обучение</b></legend>
+            <fieldset>
+                <legend><b>Ваше образование</b></legend>
+                <i>Для лиц в возрасте 10 лет и более</i>
+                <p></p>
+                <table border="0" style="border-collapse: collapse">
+                    <caption><i>Отметьте только один вариант соответствующий<br>наивысшему уровю
+                        полученного образования</i></caption>
+                    <tr>
+                        <td align="right"><label>начальное общее(начальное) <input type="radio" name="edu"
+                                                                                   id="scale"></label></td>
+                        <td></td>
+                        <td>высшее профессиональное<br>(высшее):</td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label>основное общее <input type="radio" name="edu" id="scale"></label></td>
+                        <td rowspan="3">
+                            <table id="little_td">
+                                <tr>
+                                    <td align="center">окончившим<br> вуз до<br> 1995 года<br> отмечать<br> специалист
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td align="right"><label>бакалавр <input type="radio" name="edu" id="scale"></label></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label>среднее(полное) общее <input type="radio" name="edu"
+                                                                              id="scale"></label></td>
+
+                        <td align="right"><label>специалист <input type="radio" name="edu" id="scale"></label></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label>начальное професииональное <input type="radio" name="edu"
+                                                                                   id="scale"></label></td>
+
+                        <td align="right"><label>магистр <input type="radio" name="edu" id="scale"></label></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label>среднее профессиональное <input type="radio" name="edu"
+                                                                                 id="scale"></label></td>
+                        <td></td>
+                        <td align="right" width="30px"><label>послевузовское <input type="radio" name="edu"
+                                                                                    id="scale"><br>профессиональное
+                        </label></td>
+                    </tr>
+                </table>
+                <p></p>
+                <table>
+                    <tr>
+                        <td align="right"><label>не имею образования <input type="checkbox" name="no_edu" id="scale">
+                            <span>&#10148;</span></label></td>
+                        <td>
+                            <table id="little_td_2">
+                                <tr>
+                                    <th>Умеете ли вы читать и писать?</th>
+                                </tr>
+                            </table>
+                        </td>
+                        <td align="right"><label>Да <input type="radio" name="read_write" id="scale"></label></td>
+                        <td align="right" width="100px"><label>Нет <input type="radio" name="read_write"
+                                                                          id="scale"></label></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Имеете ли Вы учёную степень кандидта или доктора наук?</b></legend>
+                <i>Для лиц с высшим и послевузовским профессиональным образованием</i>
+                <p></p>
+                <table align="center">
+                    <tr>
+                        <td align="right" style="padding-right: 50px"><label>кандидат наук <input type="radio" name="kn"
+                                                                                                  id="scale"></label>
+                        </td>
+                        <td align="right" style="padding-right: 50px"><label>доктор наук <input type="radio" name="kn"
+                                                                                                id="scale"></label></td>
+                        <td align="right" style="padding-right: 50px"><label>не имею <input type="radio" name="kn"
+                                                                                            id="scale"></label></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Учитесь ли вы в образовательном учреждении?</b></legend>
+                <i>Для лиц в возрасте 5-60 лет</i>
+                <p></p>
+                <table>
+                    <tr>
+                        <td align="right" style="padding-right: 50px"><label>Да <input type="radio" name="ou"
+                                                                                       id="scale"></label></td>
+                        <td align="right" style="padding-right: 50px"><label>Нет <input type="radio" name="ou"
+                                                                                        id="scale"></label></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Посещает ли ребёнок дошкольное учреждение</b></legend>
+                <i>Для детей в возрасте до 10 лет, не посещающих школу</i>
+                <p></p>
+                <table>
+                    <tr>
+                        <td align="right" style="padding-right: 50px"><label>Да <input type="radio" name="school"
+                                                                                       id="scale"></label></td>
+                        <td align="right" style="padding-right: 50px"><label>Нет <input type="radio" name="school"
+                                                                                        id="scale"></label></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend><b>Владение языками</b></legend>
+            <fieldset>
+                <legend><b>Владеете ли вы русским языком?</b></legend>
+                <p></p>
+                <table>
+                    <tr>
+                        <td align="right" style="padding-right: 50px"><label>Да <input type="radio" name="lang"
+                                                                                       id="scale"></label></td>
+                        <td align="right" style="padding-right: 50px"><label>Нет <input type="radio" name="lang"
+                                                                                        id="scale"></label></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Какими иными языками вы владеете?</b></legend>
+                <textarea name="first_lang" cols="50" rows="5"></textarea><br>
+                <p></p>
+                <textarea name="second_lang" cols="50" rows="5"></textarea><br>
+                <p></p>
+                <textarea name="third_lang" cols="50" rows="5"></textarea><br>
+                <p></p>
+                <label><input type="checkbox" id="scale" name="zhest"> язык жестов</label>
+            </fieldset>
+            <fieldset>
+                <legend><b>Ваш родной язык</b></legend>
+                <textarea name="mother_lang" cols="50" rows="5"></textarea><br>
+            </fieldset>
+        </fieldset>
+    </div>
+        </fieldset>
+    </div>
+</form>
+</body>
+</html>
